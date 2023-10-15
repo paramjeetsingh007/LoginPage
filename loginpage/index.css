@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('loginimage.jpg');
+    width: 100vw;
+    height: 40vw;
+}
+
+form {
+    width: 450px;
+    height: 500px;
+    margin: 20px 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;;
+}
+form h1{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+
+form p {
+    width:100%;
+    margin: 0px 40px;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+  
+    
+}
+form p input{
+    font-family: cursive;
+   width: 300px;
+   height: 40px;
+   text-align: center;
+   display: block;
+   border-radius: 20px;
+   margin-top: 10px;
+}
+form p #sub{
+  background-color: blue;
+  font-family: cursive;
+
+ }
+ 
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 10px;
+
+}
+footer a:visited{
+    color: brown;
+    cursor: pointer;
+}
+footer a:visited{
+    color:royalblue;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    form{
+        margin: 0px 100px;
+    }
+    
+}
